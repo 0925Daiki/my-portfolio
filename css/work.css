@@ -15,3 +15,81 @@ color: var(--text);
 /*
 PROFILE
 =============================================== */
+/* MAIN */
+
+.main-profile{
+  background-color: thistle;
+  
+}
+
+h2{
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.profile_contents {
+  background: white;
+  width: 450px;
+  height: 550px;
+  -webkit-box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.3);
+  margin: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.profile_img {
+  width: 450px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.profile_img img {
+  width: 450px;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.profile_contents h3 {
+  font-size: 1.4rem;
+  width: auto;
+  margin: 0;
+  padding: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.profile_contents span {
+  font-size: 1rem;
+  width: auto;
+  margin: 3px;
+  text-align: center;
+}
+
+
