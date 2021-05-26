@@ -1,0 +1,39 @@
+/*
+HEADER
+================================================ */
+.page-header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 100px;
+  margin-top: 14px;
+}
+
+.main-nav{
+  display: flex;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  list-style: none;
+}
+
+.main-nav li{
+  margin-left: 36px;
+}
+
+.main-nav a{
+  color: black;
+}
+
+.main-nav a:hover{
+  color: aqua;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}

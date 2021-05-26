@@ -1,0 +1,22 @@
+/*
+FOOTER
+================================================ */
+footer {
+  text-align: center;
+  padding-bottom: 3rem;
+  margin-top: 50px;
+  background-color: floralwhite;
+}
+.footer-link {
+  margin-bottom: .5rem;
+  font-size: 20px;
+}
+
+.sns-blog{
+font-size: 20px;
+margin-bottom: 5px;
+}
+
+.copyright{
+  font-size: 20px;
+}

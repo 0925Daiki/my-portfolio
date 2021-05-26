@@ -1,0 +1,17 @@
+@charset 'UTF-8';
+/*
+GENERAL STYLING
+================================================ */
+html {
+  font-size: 100%;
+}
+body {
+color: var(--text);
+  background: var(--bg);
+  font-family: 'Bree Serif', sans-serif;
+  transition: .5s;
+}
+
+/*
+PROFILE
+=============================================== */
