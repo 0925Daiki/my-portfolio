@@ -37,3 +37,16 @@ HEADER
   margin: 0 auto;
   padding: 0 4%;
 }
+
+/*
+スマホ対応
+================================================ */
+@media (max-width: 481px) {
+  /* Header */
+      .page-header{
+        width: 100%;
+      }
+      .main-nav{
+        width: 100%;
+      }
+    }
